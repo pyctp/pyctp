@@ -1,0 +1,50 @@
+[Base]
+users = SIM_USER_086038,SIM_USER_105686
+traders = SIM_TRADER_105877
+
+[Base_Mock]
+users = SIM_USER_086038
+;traders = SQ_TRADER1,SQ_TRADER2
+traders = SIM_TRADER_105877
+
+[Base_Real]
+users = SIM_USER_086038
+traders = REAL_TRADER_105877
+
+[SIM_USER_086038]
+port = tcp://180.168.146.187:10031
+broker_id = 9999
+investor_id = *
+passwd = *
+
+[SIM_USER_105686]
+port = tcp://180.168.146.187:10031
+broker_id = 9999
+investor_id = *
+passwd = *
+
+[SIM_USER_105877]
+port = tcp://180.168.146.187:10031
+broker_id = 9999
+investor_id = *
+passwd = *
+
+[SIM_TRADER_105877]
+port = tcp://180.168.146.187:10030
+broker_id = 9999
+investor_id = 105877
+passwd =  'ftp123'
+
+[REAL_TRADER_105877]
+port = tcp://180.168.146.187:10030
+broker_id = 9999
+investor_id = 105877
+passwd =  'ftp123'
+
+[REAL_TRADER]
+port = tcp://180.168.146.187:10030
+broker_id = 9999
+investor_id = 116649
+passwd =  'ftp123'
+
+
